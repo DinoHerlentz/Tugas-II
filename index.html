@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Data Mahasiswa Fakultas Ilmu Komputer dan Teknologi Informasi</legend>
+            <table>
+                <tr>
+                    <td><label for="uname">
+                            <h1 class="data">Nama</h1>
+                        </label></td>
+                    <td><input type="text" id="uname" placeholder="Masukkan Nama" name="username" required><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="uname">
+                            <h1 class="data">NIM</h1>
+                        </label></td>
+                    <td><input type="number" id="uname" placeholder="Masukkan NIM" name="nim" required><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="pass">
+                            <h1 class="data">Password</h1>
+                        </label></td>
+                    <td><input type="password" id="pass" name="password" placeholder="Masukkan Password" required><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="pass">
+                            <h1 class="data">Konfirmasi Password</h1>
+                        </label></td>
+                    <td><input type="password" id="pass" name="password2" placeholder="Konfirmasi Password"
+                            required><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="jurusan">
+                            <h1 class="data">Program Studi</h1>
+                        </label></td>
+                    <td>
+                        <select name="Program Studi">
+                            <option value="#">--- Pilih Salah Satu ---</option>
+                            <option value="ilkom">Ilmu Komputer</option>
+                            <option value="ti">Teknologi Informasi</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="gender">
+                            <h1 class="red">Jenis Kelamin</h1>
+                        </label></td>
+                    <td class="flex-row">
+                        <input type="radio" id="lk" name="jk" value="laki-laki"><label for="man">Laki-Laki</label><br>
+                        <input type="radio" id="pr" name="jk" value="perempuan"><label for="woman">Perempuan</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="alamat">
+                            <h1 class="red">Alamat</h1>
+                        </label></td>
+                    <td>
+                        <textarea name="alamat" id="alamat" placeholder="Masukkan Alamat" rows="5" cols="20"
+                            required></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="info">
+                            <h1 class="red">KOM</h1>
+                        </label></td>
+                    <td class="flex-row">
+                        <input type="radio" id="a" name="kom"><label for="a">A</label><br>
+                        <input type="radio" id="b" name="kom"><label for="b">B</label><br>
+                        <input type="radio" id="c" name="kom"><label for="c">C</label><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="info">
+                            <h1 class="red">Agama</h1>
+                        </label></td>
+                    <td class="flex-row">
+                        <input type="radio" id="islam" name="agama"><label for="a">Islam</label><br>
+                        <input type="radio" id="protestan" name="agama"><label for="b">Kristen Protestan</label><br>
+                        <input type="radio" id="katholik" name="agama"><label for="c">Kristen Katholik</label><br>
+                        <input type="radio" id="hindu" name="agama"><label for="c">Hindu</label><br>
+                        <input type="radio" id="buddha" name="agama"><label for="c">Buddha</label><br>
+                        <input type="radio" id="khonghucu" name="agama"><label for="c">Khonghucu</label><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="info">
+                            <h1 class="red">Olahraga yang Diminati</h1>
+                        </label></td>
+                    <td class="flex-row">
+                        <input type="checkbox" name="basket"><label for="bk">Basket</label><br>
+                        <input type="checkbox" name="badminton"><label for="bmt">Badminton</label><br>
+                        <input type="checkbox" name="futsal"><label for="fs">Futsal</label><br>
+                        <input type="checkbox" name="volly"><label for="vl">Volly</label><br>
+                        <input type="checkbox" name="tennis"><label for="tm">Tennis Meja</label><br>
+                        <input type="checkbox" name="billiard"><label for="bl">Billiard</label><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>

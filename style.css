@@ -1,0 +1,28 @@
+.data {
+    font-family: arial;
+    font-size: 14px;
+    color: blue;
+}
+
+.red {
+    font-family: arial;
+    font-size: 14px;
+    color: red;
+}
+
+/*
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
